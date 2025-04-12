@@ -1,0 +1,21 @@
+[user]
+	email = rbstj0311@naver.com
+	name = Gyunseo Lee
+	signingKey = ""
+[init]
+	defaultBranch = main
+[core]
+	editor = nvim
+[gpg]
+	format = openpgp
+	program = gpg
+[commit]
+	gpgSign = false
+[tag]
+	forceSignAnnotated = false
+[gpg "ssh"]
+	program = ssh-keygen
+	allowedSignersFile = ""
+[alias]
+	st = status
+	lg = log --all --decorate --graph --oneline
