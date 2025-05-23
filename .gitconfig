@@ -1,11 +1,12 @@
 [user]
-	email = rbstj0311@naver.com
+	email = gyunseo.lee@gmail.com 
 	name = Gyunseo Lee
 	signingKey = ""
 [init]
 	defaultBranch = main
 [core]
 	editor = nvim
+	autocrlf = input
 [gpg]
 	format = openpgp
 	program = gpg
